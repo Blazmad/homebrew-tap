@@ -11,5 +11,7 @@ cask "hardly-working" do
 
   app "Hardly Working.app"
 
+  uninstall quit: "com.madzar.hardlyworking"
+
   zap trash: "~/Library/Preferences/com.madzar.hardlyworking.plist"
 end
